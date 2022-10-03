@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- *main - prints hexadecimal base with putchar
+ *main - prints hexadecimal base 0123456789abcdef with putchar
  *Return: Always 0
  */
 
 int main(void)
 {
 	int n = '0';
-	int a_f = 'a';
+	int a_to_f = 'a';
 
 	while (n <= '9')
 	{
@@ -16,11 +16,12 @@ int main(void)
 		n++;
 	}
 
-	while (a_f <= 'f')
+	while (a_to_f <= 'f')
 	{
 		putchar(a_to_f);
-		a_f++;
+		a_to_f++;
 	}
+
 	putchar('\n');
 
 	return (0);
