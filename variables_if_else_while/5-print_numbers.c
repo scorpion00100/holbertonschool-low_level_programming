@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print number 0__10
+ * main - print number 0__9
  * Return: Always 0
  */
 
@@ -11,7 +11,7 @@ int main(void)
 
 	while (n <= 10)
 	{
-		printf(n);
+		printf("%i", n);
 		n++;
 	}
 	printf('\n');
