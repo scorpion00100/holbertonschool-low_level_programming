@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print reverse alphabet
+ * main - print alphabet reversed with putchar
  * Return: Always 0
  */
 int main(void)
 {
-	char lower = 'a'
+	char lower = 'a';
 
 	while (lower >= 'a')
 	{
