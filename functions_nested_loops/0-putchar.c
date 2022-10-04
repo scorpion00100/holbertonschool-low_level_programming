@@ -10,5 +10,6 @@ int main(void)
 	char n = "_putchar";
 
 	_putchar("%c", n);
+	_putchar('\n');
 	return (0);
 }
