@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - print multiplication table
+ * times_table - print table of mutliplication;
  */
 
 void times_table(void)
@@ -10,11 +10,11 @@ void times_table(void)
 	int c;
 	int p;
 
-	for (r = 0; r <= 9; r++)
+	for (l = 0; l <= 9; l++)
 	{
 		for (c = 0; c <= 9; c++)
 		{
-			p = (r * c);
+			p = (l * c);
 
 			if (c == 0)
 			{
