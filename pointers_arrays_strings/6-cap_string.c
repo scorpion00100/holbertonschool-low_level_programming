@@ -11,10 +11,10 @@ char *cap_string(char *str)
 {
 	int i = 0;
 
-	while (str[index])
+	while (str[i])
 	{
 		while (!(str[i] >= 'a' && str[i] <= 'z'))
-			index++;
+			i++;
 
 		if (str[i - 1] == ' ' ||
 		    str[i - 1] == '\t' ||
