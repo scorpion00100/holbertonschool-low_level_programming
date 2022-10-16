@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs - compute absolute valute of an integer
+ * _abs - compute absolute valute of an int
  * @n: integr num
  * Return: value
  */
