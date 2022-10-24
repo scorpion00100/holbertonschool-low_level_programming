@@ -31,4 +31,6 @@ char *_strdup(char *str)
 		new_s[i] = str[i];
 		i++;
 	}
+
 	return (new_s);
+}
