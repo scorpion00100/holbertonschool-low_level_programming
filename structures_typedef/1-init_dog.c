@@ -1,13 +1,12 @@
-#include <stdlib.h>
-#include "dog.h"
 #include <stdio.h>
+#include "dog.h"
 
 /**
- * init_dog - initialize the specific struct dog with vzlues
- * @d: the dog
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of the dog
+ * init_dog - initialize a variable of type struct dog
+ * @d: a variable of type struct dog
+ * @name: member
+ * @age: member
+ * @owner: member
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
