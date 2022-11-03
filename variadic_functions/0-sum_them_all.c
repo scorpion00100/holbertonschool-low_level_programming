@@ -2,7 +2,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - return sum 
+ * sum_them_all - return sum
  * @n: integers to add
  * Return: sum
  */
