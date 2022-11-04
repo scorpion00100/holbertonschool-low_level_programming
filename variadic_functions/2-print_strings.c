@@ -25,7 +25,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			else
 				printf("%s", s);
 
-			if (d != s && separator != NULL)
+			if (d != n && separator != NULL)
 				printf("%s", separator);
 		}
 		va_end(db);
