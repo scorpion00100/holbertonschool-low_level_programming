@@ -15,7 +15,7 @@ void print_all(const char * const format, ...);
 typedef struct db
 {
 	char let;
-	void (*func)(void va_list);
+	void (*func) (va_list);
 } data;
 
 #endif
