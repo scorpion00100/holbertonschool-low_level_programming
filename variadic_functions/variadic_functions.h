@@ -7,4 +7,15 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
+/**
+ * struct db - struct
+ * @let: letter of data type
+ * @func: function ptr
+ */
+typedef struct db
+{
+	char let;
+	void (*func)(va_list);
+} data;
+
 #endif
