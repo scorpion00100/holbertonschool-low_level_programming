@@ -2,6 +2,8 @@
 #define HEADER_H
 
 #include <stdlib.h>
+#include <stdio.h>
+#include <string>
 
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
