@@ -20,7 +20,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		if (strcmp(ht->array[d]->key, key) == 0)
 		{
-			free(ht->array[i]->value);
+			free(ht->array[d]->value);
 			ht->array[d]->value = strdup(value);
 			return (1);
 		}
