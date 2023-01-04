@@ -29,8 +29,7 @@ int binary_search(int *array, size_t size, int value)
 
 		/**
 		 * set the middle point of the array
-		 * another valid option: mid = (left + right) / 2;
-		 * but the option below does not cause overflow
+		 * make sure that the option below does not cause overflow
 		 * explanation: https://bit.ly/3wzQp9i
 		 */
 		mid = left + (right - left) / 2;
