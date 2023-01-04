@@ -6,7 +6,7 @@
  * @size: Size of the array
  * @value: Value to search for
  * Return: Index where value is located,
- *	   If value is not present in array or NULL, return -1
+ *	   If value is not present in array or if array is NULL, return -1
  */
 int binary_search(int *array, size_t size, int value)
 {
@@ -22,15 +22,15 @@ int binary_search(int *array, size_t size, int value)
 	for (left = 0, right = (int)size - 1; right >= left;)
 	{
 		/* print the array being searched every time it changes */
-		printf("Search in array: ");
+		printf("Searching in array: ");
 		for (mid = left; mid < right; mid++)
 			printf("%d, ", array[mid]);
 		printf("%d\n", array[mid]);
 
 		/**
 		 * set the middle point of the array
-		 * make sure that the option below does not cause overflow
-		 * explanation: https://bit.ly/3wzQp9i
+		 * another valid option: mid = (left + right) / 2;
+		 * but the option below does not cause overflow
 		 */
 		mid = left + (right - left) / 2;
 
